@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Godrick Naibei</title>
+  <link href="https://fonts.googleapis.com/css2?family=Hack+ZeroSlash:wght@400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- <div class=""> -->
+  <header>
+    <div class="profile">
+      <h1>Godrick Naibei</h1>
+    </div>
+    <div class="header-content">
+      <a href="#education">Education</a>
+      <a href="#interests">Interests</a>
+      <a href="#projects">Projects</a>
+      <a href="#contacts">Contacts</a>
+      <div class="toggle-wrapper">
+        <input type="checkbox" id="theme-toggle" class="theme-toggle-checkbox" />
+        <label for="theme-toggle" class="theme-toggle" aria-label="Toggle Theme"></label>
+      </div>
+    </div>
+  </header>
+
+  <div class="hero">
+    <div class="container thing">
+      <img src="./GodrickNaibei2-removebg-preview.png" alt="Profile Photo" class="profile-img" />
+      <section>
+        <h2 class="name">Godrick Naibei</h2>
+        <div class="tile">
+          <h3>About Me</h3>
+          <p>I am an ambitious individual with a great passion
+            for the business and computing worlds.
+            Responsible and focused on delivering
+            outstanding quality services. I'm an aspiring web designer and developer passionate about crafting beautiful
+            and functional
+            websites.
+            I love building clean UIs and smooth experiences!</p>
+        </div>
+        <a href="./MyCV.pdf" download class="download-cv">Download CV</a>
+      </section>
+    </div>
+  </div>
+
+  <aside class="container">
+    <h3>🛠️My tools of trade</h3>
+    <div class="programming-languages">
+      <div>
+        <img src="./images/c++.png" alt="Profile Photo" class="language" />
+        <span>C++</span>
+      </div>
+      <div>
+        <img src="./images/css.png" alt="language logo" class="language" />
+        <span>CSS</span>
+      </div>
+      <div>
+        <img src="./images/html.png" alt="language logo" class="language" />
+        <span>HTML</span>
+      </div>
+      <div>
+        <img src="./images/java2.png" alt="language logo" class="language" />
+        <span>Java</span>
+      </div>
+      <div>
+        <img src="./images/javascript.png" alt="language logo" class="language" />
+        <span>JavaScript</span>
+      </div>
+      <div>
+        <img src="./images/python3.png" alt="language logo" class="language" />
+        <span>Python</span>
+      </div>
+    </div>
+  </aside>
+
+  <div class="section-container auto-container" id="education">
+    <div class="education-container-main">
+      <h3>🎓Educational Background</h3>
+      <div class="education-container">
+        <div class="education">
+          <div class="time">
+            <h4>BSc. in Information Technology</h4>
+            <em> (2024 - present)</em>
+          </div>
+          <p>Mount Kenya University</p>
+          <hr>
+        </div>
+        <div class="education">
+          <div class="time">
+            <h4>Diploma in Business Information Technology</h4>
+            <em> (2019 - 2022)</em>
+          </div>
+          <p>Masinde Muliro University of Science & Technology</p>
+          <hr>
+        </div>
+        <div class="education">
+          <div class="time">
+            <h4>Proficiency Certificate in Computer Applications & Packages</h4>
+            <em> (March-May 2019)</em>
+          </div>
+          <p>Data Networks Institute</p>
+          <hr>
+        </div>
+        <div class="education">
+          <div class="time">
+            <h4>K.C.S.E Certificate</h4>
+            <em> (2015-2018)</em>
+          </div>
+          <p>St. Ignatius Mukumu Boys' High School</p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section-container auto-container tiles" id="interests">
+    <div class="section-container auto-container">
+      <section>
+        <h2>🎨Interests</h2>
+        <p>Technology excites me because it evolves constantly and offers endless opportunities to solve real-world
+          problems creatively and efficiently. I have a diverse range of interests that include web development, UI/UX
+          design, and cyber security. In my free time, I enjoy swimming,playing tennis and chess.</p>
+      </section>
+    </div>
+
+    <div class="section-container auto-container" id="projects">
+      <section class="projects-section">
+        <h2>📂Projects</h2>
+        <div class="project">
+          <h3 class="project-title">AfyaAlert System</h3>
+          <p>A web-based systerm designed to monitor, track, and report disease outbreaks in kenyan communities. Project
+            still under development.</p>
+          <a href="https://github.com/Godreeque001/afyaalert" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+          <h3 class="project-title">Wajibu Community Connect</h3>
+          <p>Wajibu community connect is a web-based platform that enables citizens to report community services such as
+            waste collection, delays, broken streetlights, broken drainage, and other public service concerns.Project
+            still under development.</p>
+          <a href="https://github.com/Godreeque001/wajibu-community-connect" target="_blank">View on GitHub</a>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <form class="contact-form container" action="mailto:you@example.com" method="POST" enctype="text/plain">
+      <h4>🤙Contact Me</h4>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required placeholder="John Doe">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required placeholder="you@example.com">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="3" required placeholder="Your message here..."></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+  <!-- <a href="cv.pdf" download class="download-cv">Download CV</a> -->
+
+  <div class="section-container auto-container contact-section" id="contacts">
+    <section>
+      <h2>Contacts</h2>
+      <p>Email me: <a href="mailto:">bit202432699@mylife.mku.ac.ke</a></p>
+      <p>Phone No: 0724374935/0799250423</p>
+    </section>
+  </div>
+
+  <footer>
+    &copy; 2025 Godrick. "Declare Variables, Not War"
+  </footer>
+  <!-- </div> -->
+</body>
+
+</html>
