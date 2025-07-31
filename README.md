@@ -1,6 +1,6 @@
 # Godrick Naibei - Personal Portfolio
 
-A clean, modern personal portfolio website showcasing my skills, education, projects, and contact information. Built with HTML, CSS, and featuring a responsive design with a professional dark blue color scheme.
+A dirty, modern personal portfolio website showcasing my skills, education, projects, and contact information. Built with HTML, CSS, and featuring a responsive design with a professional dark blue color scheme.
 
 ## 🚀 Features
 
