@@ -67,7 +67,7 @@ header a {
   align-items: center;
   justify-content: space-around;
   justify-items: center;
-  height: 60vh;
+  height: 60%;
   gap: 50px;
   background-color: #f0f4f8;
   padding: 100px 20px;
@@ -84,7 +84,7 @@ header a {
   align-items: center;
   justify-content: space-around;
   justify-items: center;
-  height: 60vh;
+  height: 60%;
   gap: 50px;
   padding-left: 10%;
   padding-right: 10%;
@@ -445,7 +445,7 @@ form h4 {
   }
 
   .name {
-    font-size: 3rem;
+    font-size: 3em;
     font-weight: bold;
     color: var(--text-color);
     text-align: center;
