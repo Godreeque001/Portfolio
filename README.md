@@ -16,10 +16,9 @@ A clean, modern personal portfolio website showcasing my skills, education, proj
 
 ```
 portfolio/
+├──images/                                  # programming languages images logos
 ├── index.html                              # Main HTML file
 ├── styles.css                              # Main stylesheet
-├── GodrickNaibei.jpg                       # Original profile photo
-├── GodrickNaibei2.jpg                      # Alternative profile photo
 ├── GodrickNaibei2-removebg-preview.png     # Profile photo with transparent background (used in site)
 ├── MyCV.pdf                                # CV/Resume file for download
 └── README.md                               # Project documentation
@@ -35,55 +34,65 @@ portfolio/
 ## 📋 Sections
 
 ### 1. Header/Navigation
+
 - Site title with name branding
 - Navigation links to different sections
 - Theme toggle placeholder (for future implementation)
 
 ### 2. Hero Section
+
 - Professional profile photo with circular styling and blue border
 - Introduction and brief about section
 - Clean, centered layout with flex design
 
 ### 3. Programming Languages
+
 - List of technical skills and programming languages
 - Includes: HTML, CSS, JavaScript, C, C++, Java
 
 ### 4. Educational Background
+
 - Comprehensive education history
 - Current BSc in Information Technology at Mount Kenya University
 - Previous diploma and certifications
 - K.C.S.E certification details
 
 ### 5. Projects
-- **CleanBlog**: Minimalist blog template with clean layout
-- **Taskify**: To-do list app with animations and theme support
-- GitHub links for each project
+
+- **AfyaAlert System**: A web-based systerm designed to monitor, track, and report disease outbreaks in kenyan communities. Project still under development
+- **Wajibu Community Connect**:Wajibu community connect is a web-based platform that enables citizens to report community services such as waste collection, delays, broken streetlights, broken drainage, and other public service concerns.Project still under development.
 
 ### 6. Interests
+
 - Personal and professional interests
 - Web Development, Tennis, UI/UX Design, Cyber Security, Chess
 
 ### 7. Contact Section
+
 - Contact form with name, email, and message fields
 - Direct email and phone contact information
 - Professional contact details
 
 ### 8. Footer
+
 - Copyright information with personal tagline: "Declare Variables, Not War"
 
 ## 🎨 Design Features
 
 ### Color Scheme
+
 - **Primary Blue**: `#1d4e80` - Used for headers, borders, and primary elements
 - **Light Background**: `#f0f4f8` - Used for content sections and form backgrounds
 - **White**: `#ffffff` - Used for text on dark backgrounds and form inputs
 
 ### Typography
+
 - **Font Family**: Intel One Mono (Google Fonts)
 - **Style**: Modern monospace font for a tech-focused aesthetic
 - **Weights**: 300-700 range with italic support
 
 ### Layout
+
 - **Flexbox**: Extensive use of CSS Flexbox for responsive layouts
 - **Container Width**: 80% max-width for optimal readability
 - **Spacing**: Consistent padding and margins throughout
@@ -92,6 +101,7 @@ portfolio/
 ## 📱 Responsive Design
 
 The portfolio is designed with a mobile-first approach:
+
 - Flexible grid systems using Flexbox
 - Responsive image sizing with max-width constraints
 - Scalable typography and spacing
@@ -100,15 +110,18 @@ The portfolio is designed with a mobile-first approach:
 ## 🚀 Getting Started
 
 ### Prerequisites
+
 - A modern web browser
 - Basic understanding of HTML/CSS (for modifications)
 
 ### Installation
+
 1. Clone or download the project files
 2. Ensure all files are in the same directory
 3. Open `index.html` in your web browser
 
 ### Customization
+
 1. **Personal Information**: Update content in `index.html`
 2. **Styling**: Modify colors, fonts, and layout in `styles.css`
 3. **Images**: Replace profile photos with your own
@@ -123,8 +136,6 @@ The portfolio is designed with a mobile-first approach:
 
 ## 🔮 Future Enhancements
 
-- [ ] Dark/Light theme toggle functionality
-- [ ] Smooth scrolling navigation
 - [ ] Animation effects on scroll
 - [ ] More interactive project galleries
 - [ ] Backend integration for contact form
